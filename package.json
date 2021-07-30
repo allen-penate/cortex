@@ -21,8 +21,10 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@mdi/font": "5.9.55",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vuetify": "^3.0.0-alpha.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
@@ -42,7 +44,9 @@
     "eslint-plugin-vue": "^7.0.0",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0",
-    "vue-loader": "^16.2.0"
+    "vue-loader": "^16.2.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0"
   },
   "eslintConfig": {
     "root": true,

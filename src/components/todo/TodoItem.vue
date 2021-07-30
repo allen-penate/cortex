@@ -1,6 +1,7 @@
 <template>
-  <div class="todo-item">
+  <div class="v-input field theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-text-field--placeholder" >
     <input type="text" readonly :value="todo.title" />
+    <v-divider></v-divider>
   </div>
 </template>
 

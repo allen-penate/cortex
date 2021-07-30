@@ -1,5 +1,7 @@
 <template>
-  <div class="hello">
+  <v-container>
+    <v-row class="text-center">
+      <v-col cols="12">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -91,7 +93,9 @@
         >
       </li>
     </ul>
-  </div>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
