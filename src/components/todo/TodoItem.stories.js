@@ -9,14 +9,14 @@ export default {
   title: 'TodoItem',
   //👇 Our events will be mapped in Storybook UI
   argTypes: {
-    onPinTask: {},
-    onArchiveTask: {},
+    onComplete: {},
+    onUnComplete: {},
   },
 };
 
 export const actionsData = {
-  onPinTask: action('pin-task'),
-  onArchiveTask: action('archive-task'),
+  onComplete: action('complete'),
+  onUnComplete: action('uncomplete'),
 };
 
 const Template = args => ({
@@ -24,7 +24,7 @@ const Template = args => ({
   setup() {
     return { args, ...actionsData };
   },
-  template: '<TodoItem v-bind="args" />',
+  template: '<todo-item v-bind="args" />',
 });
 export const Default = Template.bind({});
 Default.args = {
